@@ -1,12 +1,13 @@
 {
   "name": "course-app",
   "version": "1.0.0",
-  "description": "full stack course-selling-app",
+  "description": "Full stack course-selling app",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "course-app"
@@ -25,8 +26,10 @@
     "express-fileupload": "^1.5.1",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.12.2",
-    "nodemon": "^3.1.9",
     "stripe": "^18.0.0",
     "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
